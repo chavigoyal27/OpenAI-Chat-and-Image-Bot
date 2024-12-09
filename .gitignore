@@ -1,0 +1,88 @@
+# Byte-compiled Python files
+*.py[cod]
+__pycache__/
+*.pyc
+
+# Virtual environment
+env/
+venv/
+.openaienv/
+ENV/
+VENV/
+*/env/
+*/venv/
+
+# Environment variables
+*.env
+
+# Dependency directories
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+pip-wheel-metadata/
+/_pycache_
+/Include
+/Lib
+/Scripts
+.pyvenv.cfg
+
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.pid
+*.seed
+*.orig
+*.cover
+
+# Test coverage files
+.coverage
+coverage.xml
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Static and template files (adjust based on your project structure)
+staticfiles/
+templates/*.pyc
+
+# Packaging files
+*.lock
+
+# Miscellaneous
+*.sqlite3
+*.db
+*.csv
+*.dat
+*.bin
+
+# Code Runner temporary files (based on your structure)
+tempCodeRunnerFile.py
+
+# Ignore the virtual environment
+openaienv/
+Lib/site-packages/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
